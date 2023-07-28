@@ -7,5 +7,5 @@ import (
 )
 
 func (server *Server) heathCheck(ctx *gin.Context) {
-	ctx.JSON(http.StatusOK, "onetime secret is healthy/Running.")
+	ctx.JSON(http.StatusOK, "one-time secret is healthy/Running.")
 }
