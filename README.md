@@ -1,4 +1,4 @@
-# secret-management
+# One Time Secret-management
 one time secret
 
 
@@ -11,4 +11,15 @@ To install Go Migrate
     $ apt-get update
     $ apt-get install -y migrate
 
+```
+
+# Build 
+```
+go build -o main main.go
+
+```
+
+# Run
+```
+go run main.go
 ```
