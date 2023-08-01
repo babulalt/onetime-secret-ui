@@ -15,6 +15,10 @@ if (typeof process !== 'undefined' && process.env.API_BASE_URL) {
   console.log("baseurl ::",baseURL)
 }
 
+if (baseURL==""){
+  baseURL="https://zerone-4439-9025.test.01cloud.dev"
+}
+
 const axiosInstance: AxiosInstance = axios.create({
   baseURL,
   // Other Axios configuration options
