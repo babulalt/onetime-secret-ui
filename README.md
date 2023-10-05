@@ -12,3 +12,9 @@ To Build Code
     npm run build
     
 ```
+
+To Serve build
+```
+    npm run serve
+    
+```
