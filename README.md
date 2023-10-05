@@ -1,5 +1,12 @@
 # One Time Secret UI
 
+To Install dependencies
+
+```
+    npm install
+
+```
+
 To Run code 
 
 ```
